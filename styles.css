@@ -1,0 +1,88 @@
+
+
+/* ------------ FONTS ---------------------------*/
+
+
+.baskervville-regular {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.baskervville-regular-italic {
+  font-family: "Baskervville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pragati-narrow-regular {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pragati-narrow-bold {
+  font-family: "Pragati Narrow", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* ------------ NAVBAR STYLES ---------------------------*/
+
+
+.container-fluid{
+    justify-content: flex-end;
+}
+
+
+.sportathon-logo-img{
+    width:100px;
+    height: 50px;
+    
+    margin-right: 1rem;
+}
+
+
+.dropdown-menu {
+   background-color: black;
+    font-family: 'Baskervville';
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: #fc9003;
+}
+
+.dropdown-menu .dropdown-item{
+    color:white;
+}
+
+
+
+
+.navbar-brand{
+    font-family:'Baskervville';
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+    font-family: 'Baskervville';
+    font-weight: 900;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#fc9003;
+    background-color:#000;
+    text-decoration: underline;
+}
+
+.sportathon-logo:hover{
+    color:#e86c13;
+}
+
+.hr-black{
+    color:#000;
+    margin-top: 0.01rem;
+    margin-bottom: 0.01rem;
+}
